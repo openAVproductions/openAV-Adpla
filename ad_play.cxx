@@ -125,7 +125,7 @@ class Engine
     
   private:
     jack_client_t*  client;
-    char* names[4];
+    const char* names[4];
     jack_port_t*    ports[4];
     
     long frameCounter;
@@ -231,7 +231,7 @@ int main( int argc, char** argv)
     }
   }
   
-  printf("Adpla :\n\tTime: %i min,\n\tFades: %f\n\tVolume Reduction: %f\n",
+  printf("Adpla v1.0:\n\tTime: %i min,\n\tFades: %f\n\tVolume Reduction: %f\n",
           int(timeBetween),
           fadeTime,
           volReduc );

@@ -11,7 +11,6 @@ Compiling
 Deps JACK and libsndfile:
 ```
 sudo apt-get install libjack-dev libsndfile-dev
-pacman -S jack libsndfile
 ```
 
 To compile just `make`.
